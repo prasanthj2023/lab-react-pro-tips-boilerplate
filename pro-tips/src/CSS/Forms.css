@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.form-parent{
+    width: 300px;
+    height: 300px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10%;
+    margin-left: 40%;
+    padding: 50px;
+    border-radius: 10px;
+    
+}
+
+.form-parent input{
+    width: 200px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    gap: 50px;
+}
